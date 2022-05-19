@@ -17,7 +17,7 @@ const Post = ({ post }) => {
         <span className="header__date">{convertDate(post.createdAt)}</span>
       </div>
       <p className="card__description">{post.content}</p>
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <div className="card__icon__container">
         <FontAwesomeIcon icon={"thumbs-up"} className="card__icon__thumbs_up" />
         <span className="card__span__icon">{post.counts.upvotes}</span>
         <FontAwesomeIcon

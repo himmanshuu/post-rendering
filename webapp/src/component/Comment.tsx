@@ -32,7 +32,7 @@ const Comment = ({ comments }) => {
                   </span>
                 </div>
                 <p className="comment__description">{comment.body}</p>
-                <div style={{ display: "flex", alignItems: "center" }}>
+                <div className="card__icon__container">
                   <FontAwesomeIcon
                     icon={"thumbs-up"}
                     className="card__icon__thumbs_up"

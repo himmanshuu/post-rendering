@@ -44,7 +44,10 @@
   width: 25px;
   border-radius: 50%;
 }
-
+.card__icon__container {
+  display: flex;
+  align-items: center;
+}
 .card__icon__thumbs_up {
   color: blue;
   margin: 5px;

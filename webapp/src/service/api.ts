@@ -3,8 +3,6 @@
 export const feedAPI = async (url: string) => {
   const res = await fetch("http://localhost:8080/");
   const data = await res.json();
-
-  // const data = await res.json();
   console.log("Data", data);
   return data;
 };
@@ -18,7 +16,5 @@ export const feedAPISecond = async (url: string) => {
     },
   });
   const data = await res.json();
-
-  // const data = await res.json();
   console.log("Data Second", data);
 };

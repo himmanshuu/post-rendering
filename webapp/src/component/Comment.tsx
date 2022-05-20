@@ -1,16 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import react, { useState } from "react";
 import "./Post.css";
-const mockComments = [
-  {
-    _id: "1",
-    body: "Hey, thank you for taking an interest in our program. You can go to the Programs tab on the Prodigy Baby app and view the course videos. For enquires please email us to support that is help@raisingsuperstars.in , so that we can assist you further :)",
-  },
-  {
-    _id: "2",
-    body: "Hey, thank you for taking an interest in our program. You can go to the Programs tab on the Prodigy Baby app and view the course videos. For enquires please email us to support that is help@raisingsuperstars.in , so that we can assist you further :)",
-  },
-];
+
 const Comment = ({ comments }) => {
   const [isOpen, setIsOpen] = useState(false);
   const clickHandler = () => setIsOpen(!isOpen);
